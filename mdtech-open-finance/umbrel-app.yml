@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: mdtech-open-finance
+name: Open Finance
+tagline: Painel pessoal de Open Finance Brasil, faturas e investimentos
+icon: https://raw.githubusercontent.com/M-D-Tech/umbrel-apps/main/mdtech-open-finance/icon.svg
+category: finance
+version: "1.0.3"
+port: 3456
+description: >-
+  Painel financeiro pessoal self-hosted integrado ao Pluggy Open Finance Brasil
+  com banco de dados local SQLite, categorização inteligente de transações,
+  acompanhamento de faturas de cartão, metas de orçamento por categoria e
+  consolidação de carteira de investimentos (Renda Fixa, Tesouro Direto, FIIs,
+  Ações e Fundos). Todos os dados e credenciais permanecem armazenados apenas
+  no seu servidor Umbrel.
+developer: M-D-Tech
+website: https://github.com/M-D-Tech/umbrel-apps
+submitter: MatheusCJesus
+submission: https://github.com/M-D-Tech/umbrel-apps
+repo: https://github.com/M-D-Tech/umbrel-apps
+support: https://github.com/M-D-Tech/umbrel-apps/issues
+gallery: []
+releaseNotes: >-
+  Versão inicial empacotada para umbrelOS (linux/amd64) com persistência SQLite
+  em ${APP_DATA_DIR}/data, proteção nativa via app_proxy e timezone
+  America/Sao_Paulo.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
