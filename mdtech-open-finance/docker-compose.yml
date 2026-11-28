@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   web:
-    image: ghcr.io/m-d-tech/finance-app:1.0.4@sha256:65ed7580e9c75d1ddb171cfc239e0d046e71ea7c502ca19a597158a34546e87e
+    image: ghcr.io/m-d-tech/finance-app:1.0.5@sha256:a688dbf116236493c43d69a8eb4a80244463350073c6386b3008ddebc9cc9d72
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m

@@ -4,7 +4,7 @@ name: Open Finance
 tagline: Painel pessoal de Open Finance Brasil, faturas e investimentos
 icon: https://raw.githubusercontent.com/M-D-Tech/umbrel-apps/main/mdtech-open-finance/icon.svg
 category: finance
-version: "1.0.4"
+version: "1.0.5"
 port: 3456
 description: >-
   Painel financeiro pessoal self-hosted integrado ao Pluggy Open Finance Brasil
